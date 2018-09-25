@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
   }
-  
+
   body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #C1B5AD;
   }
-  
+
   #map {
     height: 100vh;
     width: 100vw;
@@ -17,3 +17,24 @@
     height: 45px;
     width: 45px;
   }
+
+  #header {
+    height: 50px;
+    background-color: red;
+    width: 100%;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* flex-wrap: wrap; */
+  }
+
+li {
+  margin-right: 20px;
+  list-style-type: none;
+}
