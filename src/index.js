@@ -19,5 +19,5 @@ markerDomEl.style.height = "45px";
 markerDomEl.style.backgroundImage = "url(https://image.ibb.co/kwTjSU/Dan.png)";
 new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map);
 
-buildMarker("activity", [-74.009, 40.705]).addTo(map);
+buildMarker("activities", [-73.9857, 40.7484]).addTo(map);
 
